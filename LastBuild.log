@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2025.9.30.0" projectFile="C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\docs\KabinWagleDocs.shfbproj" started="12/4/2025 10:36:41 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2025.9.30.0" projectFile="C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\docs\KabinWagleDocs.shfbproj" started="12/7/2025 12:09:43 PM">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -13,30 +13,31 @@ Website Table of Contents Generator Version 2025.9.30.0
 Copyright &#169; 2006-2025, Eric Woodruff, All Rights Reserved
 -------------------------------
 Clearing any prior web/markdown output...
+    Did not delete folder &#39;C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\docs\Help\.git&#39; as it contains read-only or hidden folders/files
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
+Source: C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\KabinWagle\bin\Debug\net10.0-windows\KabinWagle.xml
 Source: C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\KabinWagle\bin\Debug\net10.0-windows\KabinWagle.dll
     Found assembly &#39;C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\KabinWagle\bin\Debug\net10.0-windows\KabinWagle.dll&#39;
-Source: C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\KabinWagle\bin\Debug\net10.0-windows\KabinWagle.xml
 
 Copying XML comments files
     C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\KabinWagle\bin\Debug\net10.0-windows\KabinWagle.xml -&gt; C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\docs\Help\Working\KabinWagle.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0081
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0271
+    Last step completed in 00:00:00.0200
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-e9f6bdc6-0a76-4924-89a3-b9ee7507f652.proj]
-Build started 12/4/2025 10:36:42 AM.
+[C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-97027dd5-8a60-4513-911b-88df59876b3c.proj]
+Build started 12/7/2025 12:09:43 PM.
 
-Project &quot;C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\docs\Help\Working\GenerateRefInfo-e9f6bdc6-0a76-4924-89a3-b9ee7507f652.proj&quot; on node 1 (default targets).
+Project &quot;C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\docs\Help\Working\GenerateRefInfo-97027dd5-8a60-4513-911b-88df59876b3c.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
@@ -46,37 +47,50 @@ GenerateRefInfo:
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
   Using framework redirect &#39;System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39; in place of &#39;System.Windows.Forms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39;
   Using framework redirect &#39;System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39; in place of &#39;System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39;
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Drawing.Primitives (System.Drawing.Primitives, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by KabinWagle [C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\docs\Help\Working\GenerateRefInfo-e9f6bdc6-0a76-4924-89a3-b9ee7507f652.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Drawing.Common (System.Drawing.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51) required by KabinWagle [C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\docs\Help\Working\GenerateRefInfo-e9f6bdc6-0a76-4924-89a3-b9ee7507f652.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.ComponentModel.Primitives (System.ComponentModel.Primitives, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by KabinWagle [C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\docs\Help\Working\GenerateRefInfo-e9f6bdc6-0a76-4924-89a3-b9ee7507f652.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Drawing.Primitives (System.Drawing.Primitives, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by KabinWagle [C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\docs\Help\Working\GenerateRefInfo-97027dd5-8a60-4513-911b-88df59876b3c.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Drawing.Common (System.Drawing.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51) required by KabinWagle [C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\docs\Help\Working\GenerateRefInfo-97027dd5-8a60-4513-911b-88df59876b3c.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.ComponentModel.Primitives (System.ComponentModel.Primitives, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by KabinWagle [C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\docs\Help\Working\GenerateRefInfo-97027dd5-8a60-4513-911b-88df59876b3c.proj]
   Using framework redirect &#39;System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
   Using framework redirect &#39;Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
-  Wrote information on 1 namespaces, 2 types, and 18 members
+  Wrote information on 1 namespaces, 3 types, and 22 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\docs\Help\Working\GenerateRefInfo-e9f6bdc6-0a76-4924-89a3-b9ee7507f652.proj&quot; (default targets).
-    Last step completed in 00:00:01.4928
+Done Building Project &quot;C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\docs\Help\Working\GenerateRefInfo-97027dd5-8a60-4513-911b-88df59876b3c.proj&quot; (default targets).
+    Last step completed in 00:00:01.2653
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.1122
+    Last step completed in 00:00:00.0793
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
-    Last step completed in 00:00:00.0919
+    Last step completed in 00:00:00.0791
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.0920
+    Last step completed in 00:00:00.1014
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0410
+    Last step completed in 00:00:00.0158
+</buildStep>
+<buildStep step="GenerateInheritedDocumentation">
+Generating inherited documentation...
+Reflection information will be retrieved from &#39;C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\docs\Help\Working\reflection.xml&#39;
+Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\*.xml
+Indexing C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\docs\Help\Working\KabinWagle.xml
+Indexed 158609 members in 128 file(s).  1 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Merging inherited documentation...
+
+SHFB: Warning GID0004: No comments found for member &#39;M:KabinWagle.AppClear.Execute&#39;
+SHFB: Warning GID0004: No comments found for member &#39;M:KabinWagle.AppClear.CheckParameters(System.String[])&#39;
+Documentation merged successfully.  Merged comments were saved in &#39;C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\docs\Help\Working\_InheritedDocs_.xml&#39;.
+    Last step completed in 00:00:00.7898
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -85,22 +99,22 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.0570
+    Last step completed in 00:00:00.0420
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.5586
+    Last step completed in 00:00:00.2180
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0157
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\docs\Help\Working\BuildAssembler.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0323
+    Last step completed in 00:00:00.0290
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -109,6 +123,7 @@ Loading TOC info and adding unique IDs to parent nodes
 </plugIn>Loading configuration...
 Processing topics...
 SHFB: Warning BE0066: ShowMissingComponent: [N:KabinWagle] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:KabinWagle] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
 SHFB: Warning BE0066: ShowMissingComponent: [T:KabinWagle.AppCanvas] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppCanvas] Unknown reference link target &#39;T:BOOSE.ICanvas&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:KabinWagle.AppCanvas.Circle(System.Int32,System.Boolean)] Unknown reference link target &#39;M:BOOSE.ICanvas.Circle(System.Int32,System.Boolean)&#39;.
@@ -129,19 +144,104 @@ SHFB: Warning BE0066: ShowMissingComponent: [M:KabinWagle.AppCanvas.Tri(System.I
 SHFB: Warning BE0066: ShowMissingComponent: [M:KabinWagle.AppCanvas.Tri(System.Int32,System.Int32)] Missing &lt;param name=&quot;width&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:KabinWagle.AppCanvas.Tri(System.Int32,System.Int32)] Missing &lt;param name=&quot;height&quot;/&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:KabinWagle.AppCanvas.Tri(System.Int32,System.Int32)] Unknown reference link target &#39;M:BOOSE.ICanvas.Tri(System.Int32,System.Int32)&#39;.
-SHFB: Warning BE0066: ShowMissingComponent: [M:KabinWagle.AppCanvas.WriteText(System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:KabinWagle.AppCanvas.WriteText(System.String)] Missing &lt;param name=&quot;text&quot;/&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:KabinWagle.AppCanvas.WriteText(System.String)] Unknown reference link target &#39;M:BOOSE.ICanvas.WriteText(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:KabinWagle.AppCanvas.WriteText(System.String)] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:KabinWagle.AppCanvas.Xpos] Unknown reference link target &#39;P:BOOSE.ICanvas.Xpos&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:KabinWagle.AppCanvas.Ypos] Unknown reference link target &#39;P:BOOSE.ICanvas.Ypos&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;P:BOOSE.CanvasCommand.Canvas&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;P:BOOSE.Command.Name&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;P:BOOSE.Command.ParameterList&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;P:BOOSE.Command.Parameters&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;P:BOOSE.Command.Paramsint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;P:BOOSE.Command.Program&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;M:BOOSE.Command.CheckParameters(System.String[])&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;M:BOOSE.Command.Compile&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;M:BOOSE.Command.Execute&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;M:BOOSE.Command.ProcessParameters(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;M:BOOSE.Command.Set(BOOSE.StoredProgram,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;M:BOOSE.Command.ToString&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;F:BOOSE.CanvasCommand.canvas&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;F:BOOSE.Command.IsDouble&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;F:BOOSE.Command.parameterList&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;F:BOOSE.Command.parameters&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;F:BOOSE.Command.paramsint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;F:BOOSE.Command.program&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;F:BOOSE.CanvasCommand.xPos&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;F:BOOSE.CanvasCommand.yPos&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Canvas&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:KabinWagle.AppClear] Unknown reference link target &#39;M:BOOSE.Command.CheckParameters(System.String[])&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:KabinWagle.AppClear] Unknown reference link target &#39;M:BOOSE.Command.Compile&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:KabinWagle.AppClear] Unknown reference link target &#39;M:BOOSE.Command.Execute&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:KabinWagle.AppClear] Unknown reference link target &#39;M:BOOSE.Command.ProcessParameters(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:KabinWagle.AppClear] Unknown reference link target &#39;M:BOOSE.Command.Set(BOOSE.StoredProgram,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:KabinWagle.AppClear] Unknown reference link target &#39;M:BOOSE.Command.ToString&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:KabinWagle.AppClear] Unknown reference link target &#39;P:BOOSE.CanvasCommand.Canvas&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:KabinWagle.AppClear] Unknown reference link target &#39;P:BOOSE.Command.Name&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:KabinWagle.AppClear] Unknown reference link target &#39;P:BOOSE.Command.ParameterList&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:KabinWagle.AppClear] Unknown reference link target &#39;P:BOOSE.Command.Parameters&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:KabinWagle.AppClear] Unknown reference link target &#39;P:BOOSE.Command.Paramsint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:KabinWagle.AppClear] Unknown reference link target &#39;P:BOOSE.Command.Program&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:KabinWagle.AppClear] Unknown reference link target &#39;F:BOOSE.CanvasCommand.canvas&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:KabinWagle.AppClear] Unknown reference link target &#39;F:BOOSE.Command.IsDouble&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:KabinWagle.AppClear] Unknown reference link target &#39;F:BOOSE.Command.parameterList&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:KabinWagle.AppClear] Unknown reference link target &#39;F:BOOSE.Command.parameters&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:KabinWagle.AppClear] Unknown reference link target &#39;F:BOOSE.Command.paramsint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:KabinWagle.AppClear] Unknown reference link target &#39;F:BOOSE.Command.program&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:KabinWagle.AppClear] Unknown reference link target &#39;F:BOOSE.CanvasCommand.xPos&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:KabinWagle.AppClear] Unknown reference link target &#39;F:BOOSE.CanvasCommand.yPos&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:KabinWagle.AppClear] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:KabinWagle.AppClear.#ctor(BOOSE.Canvas)] Unknown reference link target &#39;T:BOOSE.Canvas&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:KabinWagle.AppClear.CheckParameters(System.String[])] Missing &lt;param name=&quot;parameter&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:KabinWagle.AppClear.CheckParameters(System.String[])] Unknown reference link target &#39;M:BOOSE.ICommand.CheckParameters(System.String[])&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:KabinWagle.AppClear.CheckParameters(System.String[])] Unknown reference link target &#39;T:BOOSE.CommandException&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:KabinWagle.AppClear.Execute] Unknown reference link target &#39;M:BOOSE.ICommand.Execute&#39;.
 SHFB: Warning BE0066: ShowMissingComponent: [T:KabinWagle.Form1] Missing &lt;summary&gt; documentation
-Processed 27 topic(s)
-27 warning(s)
+Processed 36 topic(s)
+113 warning(s)
 CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 2 of 15.
-CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 4 of 30.
+CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
 <plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
 Generating TOC fragment files
-</plugIn>    Last step completed in 00:00:07.0960
+</plugIn>    Last step completed in 00:00:05.4194
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -177,26 +277,26 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Defaul
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\docs\Help\Working\Output\Website\SearchHelp.inc.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\docs\Help\Working\Output\Website\SearchHelp.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\Users\kabinwagel\Desktop\ASE_Assignment_Kabin\new\docs\Help\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00.2613
+    Last step completed in 00:00:00.0633
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00.3909
+    Last step completed in 00:00:00.1441
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
-Copied 94 files for the website content
-    Last step completed in 00:00:00.1170
+Copied 106 files for the website content
+    Last step completed in 00:00:00.1834
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0280
+    Last step completed in 00:00:00.0316
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 12/4/2025 10:36:52 AM.  Total time: 00:00:10.9153
+Build completed successfully at 12/7/2025 12:09:52 PM.  Total time: 00:00:08.9532
 
 </buildStep>
 </shfbBuild>
